@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.deck-container {
+	background: 
+		-webkit-radial-gradient(25% 30%, transparent, black), 
+		-webkit-radial-gradient(black 19%, transparent 20%) 0 0, 
+		-webkit-radial-gradient(black 19%, transparent 20%) 11px 11px, 
+		-webkit-radial-gradient(rgba(255, 255, 255, .2) 20%, transparent 22%) 0 1px, 
+		-webkit-radial-gradient(rgba(255, 255, 255, .2) 20%, transparent 22%) 11px 12px;
+	background-color: #333;
+	background-size: auto, 22px 22px, 22px 22px, 22px 22px, 22px 22px;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font-family: "Droid Sans" !important;
+	text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+
+a {
+	color: #ccc !important;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover {
+	color: #fff;
+	text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+
+#FollowLink {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 444; 
+}
+
+#Video {
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+	z-index: 444; 
+}
+
+section {
+	height: 100%;
+	display: -webkit-box !important;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	font-size: 28px;
+	color: #eee;
+	min-width: 500px;
+}
+
+
+h1 {
+	font-size: 67px;
+}
+
+.tag {
+	color: #999;
+	font-size: 27px !important;
+	text-align: justify;
+}
+
+section.title {
+	background: none !important;
+}
+
+body {
+
+}
+
+.XC {
+	-webkit-transform: translateY(0);
+	-webkit-transition: -webkit-transform 1s ease;
+	height: 100%;
+	width: 100%;
+}
+
+.OnDemo {
+	-webkit-transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 1s ease;
+}

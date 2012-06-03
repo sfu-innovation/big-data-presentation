@@ -1,0 +1,8 @@
+{
+	"name": "big-data-presentation",
+	"version": "0.0.3",
+	"dependencies": {
+		"express": ">=2.5.9",
+		"socket.io": ">=0.9.5"
+	}
+}
